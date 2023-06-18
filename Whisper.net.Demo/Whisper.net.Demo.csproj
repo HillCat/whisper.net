@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<Import Project="../Whisper.net.Runtime/Whisper.net.Runtime.targets" />
 	<PropertyGroup>
-		<OutputType>Exe</OutputType>
-		<TargetFrameworks>net7.0;net472</TargetFrameworks>
+		<TargetFrameworks>net6.0;netstandard2.1</TargetFrameworks>
 		<LangVersion>10</LangVersion>
+		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
 	<ItemGroup>
